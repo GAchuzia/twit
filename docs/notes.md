@@ -13,3 +13,4 @@ My notes and ramblings following along the ugit tutorial.
   - `*twitenv/`
   - Appearantly this is not exactly correct, because it ignores everything that ends in -`twitenv/`. Already learning new things.
 - Why am I up so late? Becuase I have a procrastination problem (also I hate daylight savings!!).  
+- `pip install -e .` will install the "editable" version of the software in our current directory. The command for getting "Hello, World!" given in the tutorial is now outdated.
