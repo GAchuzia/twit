@@ -2,7 +2,7 @@
 
 My notes and ramblings following along the ugit tutorial.
 
-## Change 1
+## Change 1 - ugit: DIY Git in Python
 
 **Mon 09 March 2026 2:22am**
 
