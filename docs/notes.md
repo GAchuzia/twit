@@ -2,10 +2,14 @@
 
 My notes and ramblings following along the ugit tutorial.
 
-## Tutorial - 1
+## Change 1
 
 **Mon 09 March 2026 2:22am**
 
 - A Version Control System (VCS) tracks, records, and manages changes to files. The most famous one is of course [Git](https://git-scm.com/).
   - And in the spirit of the [origin of the name](https://about.gitlab.com/blog/celebrating-17-years-of-git/#the-origin-of-the-name-git), I've decided that this toy implementation will be called [twit](README.md).
-- Why am I up so late? Becuase I have a procrastination problem.  
+- So far the tutorial seems simple enough, nothing I haven't come across while using Python.
+- I also learned a little bit more about the `.gitignore`. My virtual enviroment for this project is called `twitenv`, and I was going to add it to the `.gitginore` like this:
+  - `*twitenv/`
+  - Appearantly this is not exactly correct, because it ignores everything that ends in -`twitenv/`. Already learning new things.
+- Why am I up so late? Becuase I have a procrastination problem (also I hate daylight savings!!).  
