@@ -1,3 +1,3 @@
 # twit
 
-A toy git implementation built following the amazing [ugit](https://www.leshenko.net/p/ugit/#) tutorial.
+A toy git implementation built following the [ugit](https://www.leshenko.net/p/ugit/#) tutorial.
