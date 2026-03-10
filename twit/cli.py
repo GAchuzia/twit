@@ -1,4 +1,6 @@
 import argparse
+import os
+from . import data
 
 def parse_args():
     """
@@ -17,7 +19,8 @@ def parse_args():
 def init(args):
     """
     """
-    print("Hello, World!") #TODO: make this an actual init command
+    data.init()
+    print(f'Initialized empty twit repository in {os.getcwd()}/{data.GIT_DIR}')
 
 def main():
     args = parse_args()
