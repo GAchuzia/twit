@@ -19,3 +19,12 @@ My notes and ramblings following along the ugit tutorial.
 - I now have a few todos:
   - [ ] TODO: Explain why and how `project.toml` works
   - [ ] Add a GitHub workflow for versioning and releases
+
+## Change 2 - cli: Add arguement parser
+
+**Mon 09 March 2026 9:19pm**
+
+- I'm quite familiar with argparse since I've used it for making clis at my varying internships. Nothing too crazy!
+- My todos remain:
+  - [ ] TODO: Explain why and how `project.toml` works
+  - [ ] Add a GitHub workflow for versioning and releases
