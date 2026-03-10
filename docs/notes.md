@@ -15,7 +15,6 @@ My notes and ramblings following along the ugit tutorial.
 - Why am I up so late? Becuase I have a procrastination problem (also I hate daylight savings!!).  
 - `pip install -e .` will install the "editable" version of the software in our current directory. The command for getting "Hello, World!" given in the tutorial is now outdated.
 - I added a `project.toml` to make things more modern. 
- ![alt text](../media/change_1.png)
 - I now have a few todos:
   - [ ] TODO: Explain why and how `project.toml` works
   - [ ] Add a GitHub workflow for versioning and releases
@@ -25,6 +24,10 @@ My notes and ramblings following along the ugit tutorial.
 **Mon 09 March 2026 9:19pm**
 
 - I'm quite familiar with argparse since I've used it for making clis at my varying internships. Nothing too crazy!
-- My todos remain:
-  - [ ] TODO: Explain why and how `project.toml` works
-  - [ ] Add a GitHub workflow for versioning and releases
+
+## Change 3 - init: Create new .ugit directory
+
+**Mon 09 March 2026 11:09pm**
+
+- There's something really exciting about building a variation of a tool you use daily. It demistifies a lot of the magic/power these tools have, and somewhat transfers that power to the user. Seeing how the sausage is made as they say.
+- This change introduces the `data.py` file which makes the twit repository for a given project. Very coool.
