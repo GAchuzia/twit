@@ -31,3 +31,10 @@ My notes and ramblings following along the ugit tutorial.
 
 - There's something really exciting about building a variation of a tool you use daily. It demistifies a lot of the magic/power these tools have, and somewhat transfers that power to the user. Seeing how the sausage is made as they say.
 - This change introduces the `data.py` file which makes the twit repository for a given project. Very coool.
+
+## Change 4 - hash-object: Save object
+
+**Wed 11 March 2026 2:58am**
+
+- My terrible sleeping habits continue.
+- 
