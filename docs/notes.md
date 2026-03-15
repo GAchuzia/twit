@@ -37,4 +37,9 @@ My notes and ramblings following along the ugit tutorial.
 **Wed 11 March 2026 2:58am**
 
 - My terrible sleeping habits continue.
-- 
+
+**Sat 14 March 2026 9:42pm**
+
+- The `hash-object` function reads a file, hashes its contents, and the saves the content under the hash as the file name (and prints the name).
+  - This is known as **content-addressable storage**; the object name is gotten from its content. So the same content will have the same hash, which avoids ever having duplicate content. 
+  - I wonder how people come up with this stuff.
