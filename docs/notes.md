@@ -14,7 +14,7 @@ My notes and ramblings following along the ugit tutorial.
   - Appearantly this is not exactly correct, because it ignores everything that ends in -`twitenv/`. Already learning new things.
 - Why am I up so late? Becuase I have a procrastination problem (also I hate daylight savings!!).  
 - `pip install -e .` will install the "editable" version of the software in our current directory. The command for getting "Hello, World!" given in the tutorial is now outdated.
-- I added a `project.toml` to make things more modern. 
+- I added a `project.toml` to make things more modern.
 - I now have a few todos:
   - [ ] TODO: Explain why and how `project.toml` works
   - [ ] Add a GitHub workflow for versioning and releases
@@ -41,5 +41,5 @@ My notes and ramblings following along the ugit tutorial.
 **Sat 14 March 2026 9:42pm**
 
 - The `hash-object` function reads a file, hashes its contents, and the saves the content under the hash as the file name (and prints the name).
-  - This is known as **content-addressable storage**; the object name is gotten from its content. So the same content will have the same hash, which avoids ever having duplicate content. 
+  - This is known as **content-addressable storage**; the object name is gotten from its content. So the same content will have the same hash, which avoids ever having duplicate content.
   - I wonder how people come up with this stuff.
