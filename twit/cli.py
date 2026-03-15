@@ -1,5 +1,7 @@
 import argparse
 import os
+import sys
+
 from . import data
 
 def parse_args():
@@ -18,6 +20,10 @@ def parse_args():
     hash_object_parser.set_defaults(func=hash_object)
     hash_object_parser.add_argument('file')
 
+    cat_file_parser = commands.add_parser('cat-file')
+    cat_file_parser.set_defaults(func=cat_file)
+    cat_file_parser.add_argument('object')
+
     return parser.parse_args()
 
 def init(args):
@@ -32,6 +38,13 @@ def hash_object(args):
     """
     with open(args.file, 'rb') as f:
         print(data.hash_object(f.read()))
+
+def cat_file(args):
+    """
+    
+    """
+    sys.stdout.flush()
+    sys.stdout.buffer.write(data.get_object(args.object))
         
 def main():
     args = parse_args()
