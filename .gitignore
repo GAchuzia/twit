@@ -1,3 +1,4 @@
 twitenv/
 __pycache__
 *.egg-info/
+test-twit/
